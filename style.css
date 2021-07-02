@@ -12,20 +12,18 @@ html
 }
 .info-card
 {
+    display: flex;
     width: 624px;
-    height: 320px;
+    min-height: 320px;
     background: white;
     border-radius: 16px;
     padding: 32px;
     box-sizing: border-box;
-    position: relative;
-    
 }
 
 .info-card__info
 {
     display: inline-block;
-    position: absolute;
     padding: 0 32px;
     font-family: Arial, Helvetica, sans-serif;
 }
