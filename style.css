@@ -1,0 +1,64 @@
+html
+{
+    background: tomato;
+    
+}
+.main
+{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info-card
+{
+    width: 624px;
+    height: 320px;
+    background: white;
+    border-radius: 16px;
+    padding: 32px;
+    box-sizing: border-box;
+    position: relative;
+    
+}
+
+.info-card__info
+{
+    display: inline-block;
+    position: absolute;
+    padding: 0 32px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.info-card__image
+{
+    width: 148px;
+    height: 148px;
+    border-radius: 100%;
+}
+.info-card__header
+{
+    margin: 0;
+    font-size: 36px;
+    font-weight: normal;
+}
+.info-card__position
+{
+    margin: 0 0 24px 0;
+    
+    font-size: 18px;
+    color: #545454;
+}
+.info-card__information
+{
+    margin: 0;
+    font-size: 16px;
+}
+.info-card__link
+{
+    text-decoration: none;
+    color: red;
+}
+.special
+{
+    color: #ED6D05;
+}
